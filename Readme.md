@@ -43,7 +43,6 @@ This is a **Real-Time Collaborative Whiteboard** built using **Socket.IO**, **No
 
 ## 📁 Folder Structure
 
-
 realtime-whiteboard/
 ├── backend/
 │ ├── server.js
@@ -59,6 +58,9 @@ realtime-whiteboard/
 ├── LICENSE
 ├── README.md
 
+yaml
+Copy
+Edit
 
 ---
 
@@ -68,15 +70,21 @@ realtime-whiteboard/
 ```bash
 git clone https://github.com/YourUsername/realtime-whiteboard.git
 cd realtime-whiteboard
-
 2. Start Backend Server
-
+bash
+Copy
+Edit
 cd backend
 npm install
 npm start
-
 3. Open in Browser
+Go to:
+
+arduino
+Copy
+Edit
 http://localhost:5000
+Open in two browser tabs or devices to test real-time drawing sync.
 
 📸 Screenshots
 1️⃣ Enter Your Name Prompt
@@ -95,3 +103,4 @@ This project is licensed under the MIT License.
 You are free to use, copy, modify, and distribute this code for personal or educational use.
 
 © 2025 Neha Shukla
+
