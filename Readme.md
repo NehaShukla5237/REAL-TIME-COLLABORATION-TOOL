@@ -58,30 +58,26 @@ realtime-whiteboard/
 ├── LICENSE
 ├── README.md
 
-yaml
-Copy
-Edit
 
 ---
 
-## 🚀 How to Run Locally
+## 🚀 How to Run This Project Locally
 
-### 1. Clone the Repository
+Follow these simple steps to run the Real-Time Collaboration Tool on your local machine:
+
+### 1️⃣ Clone the Repository and Setup Backend
+
 ```bash
-git clone https://github.com/YourUsername/realtime-whiteboard.git
-cd realtime-whiteboard
-
-2. Start Backend Server
-
-cd backend
+git clone https://github.com/NehaShukla5237/REAL-TIME-COLLABORATION-TOOL.git
+cd REAL-TIME-COLLABORATION-TOOL/backend
 npm install
 npm start
 
-3. Open in Browser
 
-Go to:
+2️⃣ Open the Application in Browser
+
 http://localhost:5000
-Open in two browser tabs or devices to test real-time drawing sync.
+
 
 ## 📸 Screenshots
 
