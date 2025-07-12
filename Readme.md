@@ -70,28 +70,30 @@ Edit
 ```bash
 git clone https://github.com/YourUsername/realtime-whiteboard.git
 cd realtime-whiteboard
+
 2. Start Backend Server
-bash
-Copy
-Edit
+
 cd backend
 npm install
 npm start
-3. Open in Browser
-Go to:
 
-arduino
-Copy
-Edit
+3. Open in Browser
+
+Go to:
 http://localhost:5000
 Open in two browser tabs or devices to test real-time drawing sync.
 
-📸 Screenshots
-1️⃣ Enter Your Name Prompt
+## 📸 Screenshots
 
-2️⃣ User 1 Drawing on Whiteboard
+### 1️⃣ Enter Your Name Prompt
+![Enter Name](enter-name.png)
 
-3️⃣ User 2 Real-Time View
+### 2️⃣ User 1 Drawing
+![User 1 Drawing](user1-drawing.png)
+
+### 3️⃣ User 2 View
+![User 2 View](user2-view.png)
+
 
 🙋‍♀️ Developed By
 Neha Shukla
