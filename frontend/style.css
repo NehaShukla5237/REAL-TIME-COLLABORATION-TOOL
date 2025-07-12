@@ -1,0 +1,170 @@
+/* ✅ Reset some default styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* ✅ Dark Mode */
+body.dark {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+/* ✅ Canvas Styling */
+#canvas {
+  position: absolute;
+  left: 150px; /* leave space for toolbar */
+  top: 0;
+  z-index: 0;
+  background: #fff;
+  cursor: crosshair;
+}
+
+body.dark #canvas {
+  background: #1e1e1e;
+}
+
+/* ✅ Toolbar Styling */
+.toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 140px;
+  height: 100%;
+  background-color: #f4f4f4;
+  padding: 15px 10px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  z-index: 1;
+}
+
+body.dark .toolbar {
+  background-color: #222;
+  box-shadow: 2px 0 5px rgba(255, 255, 255, 0.1);
+}
+
+.toolbar h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.toolbar button,
+.toolbar input[type="color"],
+.toolbar input[type="range"] {
+  border: none;
+  background: #e0e0e0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+body.dark .toolbar button,
+body.dark .toolbar input[type="color"],
+body.dark .toolbar input[type="range"] {
+  background: #444;
+  color: #fff;
+}
+
+.toolbar button:hover,
+.toolbar input[type="color"]:hover,
+.toolbar input[type="range"]:hover {
+  background: #ccc;
+}
+
+body.dark .toolbar button:hover,
+body.dark .toolbar input[type="color"]:hover,
+body.dark .toolbar input[type="range"]:hover {
+  background: #666;
+}
+
+/* ✅ Chatbox Styling */
+.chatbox {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background: #f8f8f8;
+  border-left: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+
+body.dark .chatbox {
+  background: #2a2a2a;
+  border-left: 1px solid #444;
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.chat-input-area {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+body.dark .chat-input-area {
+  border-top: 1px solid #444;
+}
+
+.chat-input-area input {
+  flex: 1;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+body.dark .chat-input-area input {
+  background: #444;
+  border: 1px solid #666;
+  color: #fff;
+}
+
+.chat-input-area button {
+  margin-left: 8px;
+  padding: 8px;
+  border: none;
+  background: #4caf50;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.chat-input-area button:hover {
+  background: #45a049;
+}
+
+/* ✅ Scrollbar Styling */
+.chat-messages::-webkit-scrollbar {
+  width: 8px;
+}
+
+.chat-messages::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 8px;
+}
+
+body.dark .chat-messages::-webkit-scrollbar-thumb {
+  background-color: #666;
+}
+
+
+
+
+

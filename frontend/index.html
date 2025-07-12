@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multi-User Whiteboard with Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ✅ Toolbar -->
+  <div class="toolbar">
+    <h3>🧰 Toolbar</h3>
+    <input type="color" id="colorPicker" title="Pick Color">
+    <input type="range" id="brushSize" min="1" max="20" value="8" title="Brush Size">
+    <button id="pencil" title="Pencil">✏️</button>
+    <button id="eraser" title="Eraser">🧽</button>
+    <button id="undo" title="Undo">↩️</button>
+    <button id="redo" title="Redo">↪️</button>
+    <button id="clearBtn" title="Clear Board">🗑️</button>
+    <button id="saveBtn" title="Save Board">💾</button>
+    <button id="darkModeBtn" title="Toggle Dark Mode">🌙</button>
+  </div>
+
+  <!-- ✅ Canvas for Drawing -->
+  <canvas id="canvas"></canvas>
+
+  <!-- ✅ Chatbox -->
+  <div class="chatbox">
+    <div id="chat-messages" class="chat-messages"></div>
+    <div class="chat-input-area">
+      <input id="chat-input" type="text" placeholder="Type your message..." />
+      <button id="sendBtn" title="Send Message">📨</button>
+    </div>
+  </div>
+
+  <!-- ✅ Script -->
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
