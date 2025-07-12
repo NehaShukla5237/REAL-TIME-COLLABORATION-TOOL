@@ -69,12 +69,13 @@ realtime-whiteboard/
 git clone https://github.com/YourUsername/realtime-whiteboard.git
 cd realtime-whiteboard
 
-### 2. Start Backend Server
+2. Start Backend Server
+
 cd backend
 npm install
 npm start
 
-### 3. Open in Browser
+3. Open in Browser
 http://localhost:5000
 
 📸 Screenshots
