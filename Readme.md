@@ -79,7 +79,7 @@ npm start
 Once server is running, go to:
 
 ```
-http://localhost:5000
+http://localhost:3000
 ```
 
 > ✅ Open in **two browser tabs** or **two devices** to test live collaboration in real time.
