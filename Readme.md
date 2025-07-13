@@ -1,83 +1,126 @@
-# 🧑‍🤝‍🧑 Real-Time Collaboration Tool 🎨💬
----
-COMPANY :- CODTECH IT SOLUTIONS
+# 🎨 Real-Time Collaborative Whiteboard (Socket.IO + Node.js)
 
-NAME :- NEHA SHUKLA
-
-INTERN ID :- CT06DF671
-
-DOMAIN :- MERN STACK WEB DEVELOPMENT
-
-DURATION :- 6 WEEKS
-
-MENTOR :- NEELA SANTOSH KUMAR
+A modern, real-time collaborative whiteboard where multiple users can draw together — powered by **Socket.IO**, **Node.js**, and **Vanilla JavaScript**. Includes color picker, brush size, eraser, clear/save options, and real-time WebSocket syncing.
 
 ---
-### This project is a real-time whiteboard collaboration app built to help users draw, chat, and work together instantly across browsers 🌐.
-### It combines a shared drawing canvas ✏️ with a live chat system 💬, allowing smooth and interactive communication and creativity between users — perfect for remote teamwork, teaching, or brainstorming sessions. 🧠💡
 
-## ✨ Key Features
-- Shared Drawing Canvas – Anything you draw appears live on every connected screen
-- 💬 Instant Messaging – Communicate in real time with connected users
-- 🎚️ Dynamic Controls – Customize brush color and size while drawing
-- 🧽 Clear Whiteboard – One click clears it for everyone
-- 🔄 Live Sync – All actions update live across all clients
-  
-## 🛠️ Tech Stack Used
-- ⚛️ ReactJS – For frontend UI
-- 🎯 Socket.IO – For real-time bi-directional communication
-- 🎨 Canvas API – To draw on the whiteboard
-- 🌐 Node.js + Express – Backend server
+**Company:** CODTECH IT SOLUTIONS  
+**Name:** Neha Shukla  
+**Intern ID:** CT06DF671  
+**Domain:** MERN Stack Web Development  
+**Duration:** 6 Weeks  
+**Mentor:** Neela Santosh Kumar  
 
-## 🚀 How to Run Locally
-- 🔽 Clone the repo
-- 📦 Run npm install
-- ▶️ Start the app with npm start
-- 🌍 Open localhost:3001 in two different browsers or tabs
-- 🎉 Start drawing and chatting live!
+---
+
+# 🚀 Real-Time Drawing Collaboration Tool
+
+**Build a live whiteboard platform with WebSocket-based drawing sync across users. Key highlights include:**
+
+✅ Real-time multi-user drawing  
+✅ Pencil and eraser tools  
+✅ Color and brush size selector  
+✅ Canvas clearing & saving  
+✅ Username prompt for identity  
+✅ Fully synchronized using WebSockets
+
+---
+
+## 🧩 Features
+
+| Feature               | Description                                               |
+|-----------------------|-----------------------------------------------------------|
+| 🖌️ Real-Time Drawing  | Draw on a shared board with instant sync across users     |
+| ✏️ Pencil + Eraser    | Switch tools to draw or erase freely                      |
+| 🎨 Color Picker        | Choose brush color easily                                 |
+| 📏 Brush Size Control | Adjust stroke thickness dynamically                       |
+| 🧹 Clear Canvas        | Wipe the entire board with a single click                 |
+| 💾 Save Drawing        | Save your canvas as a PNG image                          |
+| 🧑‍🤝‍🧑 Username Prompt  | Enter your name before joining the whiteboard             |
+| ⚡ Powered by Socket.IO| Real-time bidirectional communication via WebSockets      |
+| 🌐 Responsive UI       | Works well across screen sizes                           |
+
+---
 
 ## 📁 Folder Structure
 
-REAL-TIME-COLLABORATION-TOOL/
-├── backend/
-│ ├── server.js
-│ └── package.json
-├── frontend/
-│ └── public/
-│ ├── index.html
-│ ├── style.css
-│ └── script.js
-├── enter-name.png
-├── user1-drawing.png
-├── user2-view.png
-├── README.md
-
-## 💡 Use Cases
-- 👩‍🏫 Online teaching or tutoring
-- 👨‍💻 Remote team brainstorming
-- 🧠 Mind-mapping sessions
-- 🎮 Fun doodling with friends
+```
+realtime-whiteboard/
+├── backend/                   # Node.js + Socket.IO backend
+│   ├── server.js
+│   └── package.json
+│
+├── frontend/                  # Frontend files
+│   └── public/
+│       ├── index.html
+│       ├── style.css
+│       └── script.js
+│
+├── enter-name.png            # Screenshot 1: Name prompt
+├── user1-drawing.png         # Screenshot 2: User 1 drawing
+├── user2-view.png            # Screenshot 3: User 2 sees drawing
+└── README.md
+```
 
 ---
+
+## 🚀 How to Run
+
+### 🔹 Start Backend Server (Port: 5000)
+
+```bash
+cd backend
+npm install
+npm start
+```
+
+### 🔹 Open in Browser
+
+Once server is running, go to:
+
+```
+http://localhost:5000
+```
+
+> ✅ Open in **two browser tabs** or **two devices** to test live collaboration in real time.
+
+---
+
 ## 📸 Screenshots
 
-### 1️⃣ Enter Your Name Prompt  
+### 🔹 Enter Name Prompt  
 ![Enter Name](enter-name.png)
 
-### 2️⃣ User 1 Drawing  
+---
+
+### 🔹 User 1 Drawing  
 ![User 1 Drawing](user1-drawing.png)
 
-### 3️⃣ User 2 View  
+---
+
+### 🔹 User 2 View  
 ![User 2 View](user2-view.png)
 
+---
+
+## 🛠 Tech Stack
+
+* **Frontend:** HTML, CSS, JavaScript  
+* **Backend:** Node.js, Express, Socket.IO  
+* **Protocol:** WebSocket (Socket.IO) for live drawing sync  
 
 ---
-## 🙋‍♀️ Author
-### Neha Shukla
-Intern at CodTech<br>
-GitHub: @nehashukla5237
 
-## 📄 License
-This project is licensed under the MIT License.<br>
-It is open source and free to use for learning and development purposes.
+## 👩‍💻 Author
+
+* **Name:** Neha Shukla  
+* **Project:** Real-Time Collaborative Whiteboard  
+* **GitHub:** [@NehaShukla5237](https://github.com/NehaShukla5237)
+
+---
+
+## ✨ License
+
+This project is open-source and free to use under the [MIT License](LICENSE).
+
 
